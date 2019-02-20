@@ -1,5 +1,7 @@
 package ducanh.demo;
 
+import java.io.IOException;
+
 public class OverrideExample2 extends TutorialOverride2{
 
 	public int increate(int a) {
@@ -8,9 +10,9 @@ public class OverrideExample2 extends TutorialOverride2{
 	public static void main(String[] args) {
 		
 	}
-//	public TutorialOveride1 create() {
-//		return new TutorialOverride1();
-//	}
+	public TutorialOverride create() {
+		return new TutorialOverride();
+	}
 }
 
 class TutorialOverride2{
@@ -18,7 +20,7 @@ class TutorialOverride2{
 		return a + 5;
 	}
 	
-//	public TutorialOveride1 create() {
-//		return new TutorialOverride1();
-//	}
+	public TutorialOverride create() throws IOException{
+		return new TutorialOverride();
+	}
 }
