@@ -12,13 +12,23 @@ public class StringExample2 {
 
 		System.out.println(myCountry.replaceAll("land", "Viet Nam"));
 		
-		String name = "Michael";
+//		String name = "Michael";
 //		if(name=="Michael") {
 //			System.out.println("Michael");
 //		}
-		if(name.equals("Michael")) {
-			System.out.println("Michael");
+//		if(name.equals("Michael")) {
+//			System.out.println("Michael");
+//		}
+		//string la bat bien, khi da tao ra string thi khong the thay doi
+		String name = "Duc Anh";
+		for(int i = 0;i<name.length();i++) {
+			System.out.println(name.charAt(i));
 		}
+		
+		//so sanh khong phan biet hoa thuong su dung equalsIgnoreCase
+		
+		//String API
+		
 	}
 
 }

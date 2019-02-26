@@ -25,6 +25,19 @@ public class StringExample1 {
 		for (int i = 1; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
+		
+		String myName = "Duc Anh";
+		String firstName = myName.substring(0,3);
+		String lastName = myName.substring(4);
+		int length = myName.length();//lay do dai chuoi
+		System.out.println("Length of myName: "+ length);
+		System.out.println("Substring first name: "+ firstName);
+		System.out.println("Substring last name: "+ lastName);
+		
+		String firstString = "Hello";
+		String secondString = "Michael";
+		String result = firstString + secondString;
+		System.out.println(result);
 	}
 
 }
